@@ -1,0 +1,868 @@
+/* ------------GENERAL STYLES--------------------*/
+/* body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+} */
+
+/*-----------  reset ----------- */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+} */
+
+/* ---HIDEN CONTENT--- */
+/* .visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+} */
+
+/* -----------  common   --------------*/
+
+.section {
+  padding: 120px 0;
+}
+
+/* .container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+} */
+
+/* ------------PAGE HEADER----------------------*/
+
+/* .page-header {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow:
+    0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
+} */
+
+/* .header-container {
+  display: flex;
+  align-items: center;
+} */
+
+/* .header-nav {
+  display: flex;
+  align-items: center;
+} */
+
+/* .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+} */
+
+/* .header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+} */
+
+/* .header-logo .logo-part {
+  color: #2e2f42;
+} */
+
+/* .header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+} */
+
+/*-- .header-nav-item {}--*/
+
+/* .header-nav-link {
+  position: relative;
+
+  padding: 24px 0;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .header-nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .header-nav-link:hover::after,
+.header-nav-link:focus::after,
+.header-nav-link.current::after {
+  opacity: 1;
+} */
+
+/* .contacts {
+  font-style: normal;
+  margin-left: auto;
+} */
+
+/* .contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+} */
+
+/*-- .contacts-item {}--*/
+
+/* .contacts-link {
+  display: block;
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .header-nav-link:hover,
+.header-nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus,
+.header-nav-link.current {
+  color: #404bbf;
+} */
+
+/* ------------MAIN PAGE / Hero ----------------------*/
+
+/* .hero-section {
+  background-color: #2e2f42;
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 188px 0;
+} */
+
+/* .hero-container {
+  box-sizing: border-box;
+  text-align: center;
+} */
+
+/* .hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+} */
+
+/* .hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+} */
+
+/* ------------MAIN PAGE / features -------------------*/
+
+/* .features-list {
+  display: flex; 
+  align-items: center;
+  gap: 24px; 
+} */
+
+/* margin-top: 96px;
+  margin-bottom: 96px; */
+
+/* .features-item {
+  width: calc((100% - 72px) / 4);
+} */
+
+/* .features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+} */
+
+/* .features-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+} */
+
+/* отражать только для декстопа (нет этих картинок для моб ы планшетной версии) */
+
+/* .features-icon-container {
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin: 0 auto;
+  margin-bottom: 8px;
+} */
+
+/* .features-icon {} */
+
+/* ------------MAIN PAGE / team -----------------------*/
+/* .team-section {
+  background-color: #f4f4fd;
+} */
+
+/* .team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+} */
+
+/* .team-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+} */
+
+/* .team-item {
+  background-color: #fff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+} */
+
+/* .team-img {
+  display: block;
+  max-width: 100%;
+} */
+
+/* .team-subtitle-container {
+  display: block;
+  padding: 32px 16px;
+} */
+
+/* .team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+} */
+
+/* .team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+  margin-bottom: 8px;
+} */
+
+/* .team-icon-container {} */
+
+/* .team-icon-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+} */
+
+/* .team-icon-item {} */
+
+/* .team-icon-link {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .team-icon-link:hover,
+.team-icon-link:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+} */
+
+/* .team-soc-icon {
+  fill: #f4f4fd;
+  margin: 12px;
+} */
+
+/* ------------MAIN PAGE / portfolio ------------------*/
+
+/* .portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
+} */
+
+/* .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px 24px;
+} */
+
+/* .portfolio-item {
+  width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  cursor: pointer;
+} */
+
+/* .portfolio-img {
+  display: block;
+  max-width: 100%;
+} */
+
+/* .portfolio-subtitle-container {
+  display: block;
+  padding: 32px 16px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+} */
+/* .portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+} */
+
+/* .portfolio-overlay-container {
+  position: relative;
+  overflow: hidden;
+} */
+
+/* .portfolio-overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  padding: 40px 32px;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .portfolio-item:hover .portfolio-overlay-text,
+.portfolio-item:focus .portfolio-overlay-text {
+  transform: translateY(0%);
+} */
+
+/* ------------PAGE FOOTER CONTAINER----------------------------*/
+
+/* .page-footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+} */
+
+/* ------------ FOOTER (1) main ----------------------------*/
+/* .footer-cnt-main {
+  display: flex;
+  align-items: baseline;
+} */
+
+/* .footer-cnt-info {
+  display: block;
+  margin-right: 120px;
+} */
+
+/* .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+} */
+
+/* .footer-logo .logo-part {
+  color: #f4f4fd;
+} */
+
+/* .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+} */
+
+/* ------------ FOOTER (2) social ----------------------------*/
+.footer-cnt-social {
+  display: block;
+  margin-right: 80px;
+}
+
+/* .footer-social-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+} */
+
+/* .footer-social-item {} */
+
+/* .footer-social-link {
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+  cursor: pointer;
+}
+
+.footer-soc-icon {
+  fill: #f4f4fd;
+  margin: 8px;
+} */
+
+/* ------------ FOOTER (3) subsribe form ----------------------------*/
+.footer-form-container {
+  margin-left: auto;
+}
+
+/* NEW
+ display: block;
+ align-items: center;
+ margin: 0 auto;
+ gap: 16px; 
+*/
+
+/* .footer-form-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+} */
+
+.footer-form {
+  /* display: flex; */
+  gap: 24px;
+}
+
+/* NEW
+ display: flex;
+ flex-wrap: wrap;
+ margin: 0 auto; 
+*/
+
+/* .footer-form-label {} */
+
+.footer-input {
+  /* font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff; */
+
+  /* border: 1px solid #ffffff;
+  border-radius: 4px; */
+  width: 264px;
+  /* height: 40px; */
+  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
+  /* padding: 8px 16px;
+  background-color: transparent;
+  outline: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+  /* .footer-input:hover,
+.footer-input:focus {
+  border-color: #31d0aa;
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
+} */
+
+  /* .footer-btn {
+    
+  padding: 8px 24px;
+  height: 40px;
+  width: 165px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2,display: flex; 1);
+  } */
+
+  /* NEW
+ margin: 0 auto; 
+*/
+
+  /* .footer-btn:hover,
+.footer-btn:focus {
+  background-color: #31d0aa;
+}
+
+.footer-btn-icon {
+  fill: #fff;
+  margin-left: 16px;
+} */
+
+/* --------------  OVERFLOW (Backdrop) MODAL CALL BACK FORM (CBF)  -------------*/
+
+  /* .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+
+    // ---- закриття модалки call back form (CBF) ---//
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition:
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  } */
+
+  /*--------------- відкриття модалки call back form (CBF)--- */
+  /* .backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  } */
+
+  /*--------------- налаштування модалки (загальні), CBF --- */
+  /* .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 408px;
+    min-height: 584px;
+    border-radius: 4px;
+    padding: 72px 24px 24px 24px;
+    background-color: #fcfcfc;
+
+   box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+
+   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  } */
+
+  /* .backdrop:not(.is-open) .modal {
+    transform: translate(-50%, -100%) scale(1.5);
+  } */
+
+/*-------------- налаштування КНОПКИ закриття модалки (CBF) --- */
+
+/* .modal-close-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #e7e9fc;
+
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  padding: 0;
+
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.modal-icon-close-x {
+  fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover .modal-icon-close-x,
+.modal-close-btn:focus .modal-icon-close-x {
+  fill: #fff;
+} */
+
+/*-------------- налаштування внутрішніх елементів модалки (CBF) --- */
+
+/* .modal-form-container {
+  font-family: "Roboto", sans-serif;
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  max-width: 360px;
+  margin-bottom: 16px;
+} */
+
+/* .modal-form {
+  display: flex;
+  flex-direction: column;
+} */
+
+/*---- налаштування ПОЛІВ введення модалки (CBF) --- */
+
+/* .modal-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+} */
+
+/* .modal-field:nth-child(4) {
+  margin-bottom: 16px;
+} */
+
+/* .modal-label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+} */
+
+/* .modal-input-wrapper {
+  position: relative;
+} */
+
+/* .modal-input {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+
+    padding: 0;
+    padding-left: 38px;
+    padding-right: 16px;
+
+    outline: transparent;
+    transition:
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* змінюємо колір рамки форми введення при ФОКУС, + треба було ще класу ".modal-input" задати властивість "outline: transparent;"  */
+  /* .modal-input:focus {
+  border: 1px solid #4d5ae5;
+} */
+
+/* змінюємо колір зображення при ФОКУС, звертаэмося через фокус до сусіднього елемента, використовуючи оператор "+" */
+  /* .modal-input:focus + .modal-input-icon {
+  fill: #4d5ae5;
+} */
+
+/* .modal-input-icon {
+  fill: #2e2f42;
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .user-message {
+  width: 100%;
+  height: 120px;
+  padding: 0;
+  padding: 8px 16px;
+  resize: none;
+} */
+
+/* .user-message::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+} */
+
+/*---- налаштування ЧЕКБОКСА модалки (CBF)--- */
+
+/* .modal-checkbox-wrapper {
+  margin-bottom: 24px;
+} */
+
+/* .modal-check { } */
+
+/* .modal-check:checked + .modal-check-label span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+} */
+
+/* .modal-check-label {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  
+} */
+/* ----- flex-wrap: wrap; */
+
+/* .modal-check-label a {
+  color: #4d5ae5;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+} */
+
+/* .modal-check-label span {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  margin-right: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+
+  transition:
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+/* .modal-checkbox {} */
+
+/* .modal-check-icon {} */
+
+/* .modal-check-link {} */
+
+/* ------- display: block; 
+margin-left: 24px; */
+
+
+/*--------- налаштування КНОПКИ модалки (CBF) --------- */
+
+/* All specification inherited from ".hero-btn" via HTML by add 2-nd class @button@ class="modal-submit-btn hero-btn" type="submit"  */
+/* .modal-submit-btn {
+  margin: 0 auto;
+} */

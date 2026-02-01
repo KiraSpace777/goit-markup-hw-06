@@ -57,11 +57,108 @@
             </li>
           </ul>
         </address>
+        <!-- ___________ page header - burger (mobile) ___________-->
+
+        <button class="burger-btn" type="button" data-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- _________ MENU - MOBILE overflow form (backdrop) / Page header  ___________-->
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close modal-close-btn" data-menu-close>
+            <svg class="modal-icon-close-x" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-x"></use>
+            </svg>
+          </button>
+
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-nav-list">
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="./index.html">Studio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Portfolio</a>
+              </li>
+              <li class="mobile-nav-item">
+                <a class="mobile-nav-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="mobile-contacts">
+            <ul class="mobile-contacts-list">
+              <li class="mobile-contacts-item">
+                <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mobile-contacts-item">
+                <a class="mobile-contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="menu-social-list">
+            <li class="menu-social-item">
+              <a
+                class="menu-social-link"
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-ct-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-item">
+              <a
+                class="menu-social-link"
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-ct-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-item">
+              <a
+                class="menu-social-link"
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-ct-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-item">
+              <a
+                class="menu-social-link"
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-ct-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
-    <!--___________ main page ___________-->
+    <!--_____________ MAIN PAGE _____________-->
     <main>
-      <!--___________ main page section 1: hero ___________-->
+      <!--___________ main page section 1: HERO ___________-->
 
       <section class="section hero-section">
         <div class="container hero-container">
@@ -72,7 +169,7 @@
         </div>
       </section>
 
-      <!--___________ main page section 2: features ___________-->
+      <!--___________ main page section 2: FEATURES ___________-->
 
       <section class="section">
         <div class="container">
@@ -130,15 +227,19 @@
         </div>
       </section>
 
-      <!--___________ main page section 3: team ___________-->
+      <!--___________ main page section 3: TEAM ___________-->
 
       <section class="section team-section">
-        <div class="container">
+        <div class="team-main-container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
               <img
-                src="./images/img-team1.jpg"
+                srcset="
+                  ./images/team/img-team1@1x.jpg 1x,
+                  ./images/team/img-team1@2x.jpg 2x
+                "
+                src="./images/team/img-team1@1x.jpg"
                 alt="Product Designer"
                 width="264"
                 height="260"
@@ -205,7 +306,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/img-team2.jpg"
+                srcset="
+                  ./images/team/img-team2@1x.jpg 1x,
+                  ./images/team/img-team2@2x.jpg 2x
+                "
+                src="./images/team/img-team2@1x.jpg"
                 alt="Frontend Developer"
                 width="264"
                 height="260"
@@ -272,7 +377,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/img-team3.jpg"
+                srcset="
+                  ./images/team/img-team3@1x.jpg 1x,
+                  ./images/team/img-team3@2x.jpg 2x
+                "
+                src="./images/team/img-team3@1x.jpg"
                 alt="Marketing"
                 width="264"
                 height="260"
@@ -339,7 +448,11 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/img-team4.jpg"
+                srcset="
+                  ./images/team/img-team4@1x.jpg 1x,
+                  ./images/team/img-team4@2x.jpg 2x
+                "
+                src="./images/team/img-team4@1x.jpg"
                 alt="UI Designer"
                 width="264"
                 height="260"
@@ -408,21 +521,51 @@
         </div>
       </section>
 
-      <!--___________ main page section 4: portfolio ___________-->
+      <!--___________ main page section 4: PORTFOLIO ___________-->
 
       <section class="section">
-        <div class="container">
+        <div class="container portfolio-container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
-                <img
-                  src="./images/img-portfolio-1.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                  class="portfolio-img"
-                />
+                <!-- #1 -- версія РЕТИНИ (1х, 2х для різних екранів) ---------->
+                <picture>
+                  <!-- #1 -- версія РЕТИНИ для мобільного телефону -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/1-mob/mob-img-portfolio-1@1x.jpg 1x,
+                      ./images/portfolio/1-mob/mob-img-portfolio-1@2x.jpg 2x
+                    "
+                  />
+                  <!-- #1 -- версія РЕТИНИ для планшету -->
+                  <source
+                    media="(max-width: 1157px)"
+                    srcset="
+                      ./images/portfolio/2-tab/tab-img-portfolio-1@1x.jpg 1x,
+                      ./images/portfolio/2-tab/tab-img-portfolio-1@2x.jpg 2x
+                    "
+                  />
+                  <!-- версія РЕТИНИ для десктоп / ПК / ноутбук -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/3-desktop/img-portfolio-1@1x.jpg 1x,
+                      ./images/portfolio/3-desktop/img-portfolio-1@2x.jpg 2x
+                    "
+                  />
+                  <!-- ще має бути тег IMG із атрибутом SRC, заміняємо властивості width та height на style="width: 100%; height: auto"
+                    width="360"
+                    height="300" -->
+                  <img
+                    src="./images/portfolio/3-desktop/img-portfolio-1@1x.jpg"
+                    alt="Banking App"
+                    style="width: 100%; height: auto"
+                    class="portfolio-img"
+                  />
+                </picture>
+
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -436,13 +579,43 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
-                <img
-                  src="./images/img-portfolio-2.jpg"
-                  alt="Cashless Payment"
-                  width="360"
-                  height="300"
-                  class="portfolio-img"
-                />
+                <!-- #2 -- версія РЕТИНИ (1х, 2х для різних екранів) ---------->
+                <picture>
+                  <!-- #2 -- версія РЕТИНИ для мобільного телефону -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/1-mob/mob-img-portfolio-2@1x.jpg 1x,
+                      ./images/portfolio/1-mob/mob-img-portfolio-2@2x.jpg 2x
+                    "
+                  />
+                  <!-- #2 -- версія РЕТИНИ для планшету -->
+                  <source
+                    media="(max-width: 1157px)"
+                    srcset="
+                      ./images/portfolio/2-tab/tab-img-portfolio-2@1x.jpg 1x,
+                      ./images/portfolio/2-tab/tab-img-portfolio-2@2x.jpg 2x
+                    "
+                  />
+                  <!-- #2 -- версія РЕТИНИ для десктоп / ПК / ноутбук -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/3-desktop/img-portfolio-2@1x.jpg 1x,
+                      ./images/portfolio/3-desktop/img-portfolio-2@2x.jpg 2x
+                    "
+                  />
+                  <!-- ще має бути тег IMG із атрибутом SRC, заміняємо властивості width та height на style="width: 100%; height: auto"
+                    width="360"
+                    height="300" -->
+                  <img
+                    src="./images/portfolio/3-desktop/img-portfolio-2@1x.jpg"
+                    alt="Cashless Payment"
+                    style="width: 100%; height: auto"
+                    class="portfolio-img"
+                  />
+                </picture>
+
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -456,13 +629,44 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
-                <img
-                  src="./images/img-portfolio-3.jpg"
-                  alt="Meditaion App"
-                  width="360"
-                  height="300"
-                  class="portfolio-img"
-                />
+                <!-- #3 -- версія РЕТИНИ (1х, 2х для різних екранів) ---------->
+                <picture>
+                  <!-- #3 -- версія РЕТИНИ для мобільного телефону -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/1-mob/mob-img-portfolio-3@1x.jpg 1x,
+                      ./images/portfolio/1-mob/mob-img-portfolio-3@2x.jpg 2x
+                    "
+                  />
+                  <!-- #3 -- версія РЕТИНИ для планшету -->
+                  <source
+                    media="(max-width: 1157px)"
+                    srcset="
+                      ./images/portfolio/2-tab/tab-img-portfolio-3@1x.jpg 1x,
+                      ./images/portfolio/2-tab/tab-img-portfolio-3@2x.jpg 2x
+                    "
+                  />
+                  <!-- #3 -- версія РЕТИНИ для десктоп / ПК / ноутбук -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/3-desktop/img-portfolio-3@1x.jpg 1x,
+                      ./images/portfolio/3-desktop/img-portfolio-3@2x.jpg 2x
+                    "
+                  />
+                  <!-- ще має бути тег IMG із атрибутом SRC, заміняємо властивості width та height на style="width: 100%; height: auto"
+                    width="360"
+                    height="300" -->
+
+                  <img
+                    src="./images/portfolio/3-desktop/img-portfolio-3@1x.jpg"
+                    alt="Meditaion App"
+                    style="width: 100%; height: auto"
+                    class="portfolio-img"
+                  />
+                </picture>
+
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -476,13 +680,42 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
-                <img
-                  src="./images/img-portfolio-4.jpg"
-                  alt="Taxi Service"
-                  width="360"
-                  height="300"
-                  class="portfolio-img"
-                />
+                <!-- #4 -- версія РЕТИНИ (1х, 2х для різних екранів) ---------->
+                <picture>
+                  <!-- #4 -- версія РЕТИНИ для мобільного телефону -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/1-mob/mob-img-portfolio-4@1x.jpg 1x,
+                      ./images/portfolio/1-mob/mob-img-portfolio-4@2x.jpg 2x
+                    "
+                  />
+                  <!-- #4 -- версія РЕТИНИ для планшету -->
+                  <source
+                    media="(max-width: 1157px)"
+                    srcset="
+                      ./images/portfolio/2-tab/tab-img-portfolio-4@1x.jpg 1x,
+                      ./images/portfolio/2-tab/tab-img-portfolio-4@2x.jpg 2x
+                    "
+                  />
+                  <!-- #4 -- версія РЕТИНИ для десктоп / ПК / ноутбук -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/3-desktop/img-portfolio-4@1x.jpg 1x,
+                      ./images/portfolio/3-desktop/img-portfolio-4@2x.jpg 2x
+                    "
+                  />
+                  <!-- ще має бути тег IMG із атрибутом SRC, заміняємо властивості width та height на style="width: 100%; height: auto"
+                    width="360"
+                    height="300" -->
+                  <img
+                    src="./images/portfolio/3-desktop/img-portfolio-4@1x.jpg"
+                    alt="Taxi Service"
+                    style="width: 100%; height: auto"
+                    class="portfolio-img"
+                  />
+                </picture>
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -496,13 +729,43 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
-                <img
-                  src="./images/img-portfolio-5.jpg"
-                  alt="Screen Illustrations"
-                  width="360"
-                  height="300"
-                  class="portfolio-img"
-                />
+                <!-- #5 -- версія РЕТИНИ (1х, 2х для різних екранів) ---------->
+                <picture>
+                  <!-- #5 -- версія РЕТИНИ для мобільного телефону -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/1-mob/mob-img-portfolio-5@1x.jpg 1x,
+                      ./images/portfolio/1-mob/mob-img-portfolio-5@2x.jpg 2x
+                    "
+                  />
+                  <!-- #5 -- версія РЕТИНИ для планшету -->
+                  <source
+                    media="(max-width: 1157px)"
+                    srcset="
+                      ./images/portfolio/2-tab/tab-img-portfolio-5@1x.jpg 1x,
+                      ./images/portfolio/2-tab/tab-img-portfolio-5@2x.jpg 2x
+                    "
+                  />
+                  <!-- #5 -- версія РЕТИНИ для десктоп / ПК / ноутбук -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/3-desktop/img-portfolio-5@1x.jpg 1x,
+                      ./images/portfolio/3-desktop/img-portfolio-5@2x.jpg 2x
+                    "
+                  />
+                  <!-- ще має бути тег IMG із атрибутом SRC, заміняємо властивості width та height на style="width: 100%; height: auto"
+                    width="360"
+                    height="300" -->
+                  <img
+                    src="./images/portfolio/3-desktop/img-portfolio-5@1x.jpg"
+                    alt="Screen Illustrations"
+                    style="width: 100%; height: auto"
+                    class="portfolio-img"
+                  />
+                </picture>
+
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -516,13 +779,43 @@
             </li>
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
-                <img
-                  src="./images/img-portfolio-6.jpg"
-                  alt="Online Courses"
-                  width="360"
-                  height="300"
-                  class="portfolio-img"
-                />
+                <!-- #6 -- версія РЕТИНИ (1х, 2х для різних екранів) ---------->
+                <picture>
+                  <!-- #6 -- версія РЕТИНИ для мобільного телефону -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/portfolio/1-mob/mob-img-portfolio-6@1x.jpg 1x,
+                      ./images/portfolio/1-mob/mob-img-portfolio-6@2x.jpg 2x
+                    "
+                  />
+                  <!-- #6 -- версія РЕТИНИ для планшету -->
+                  <source
+                    media="(max-width: 1157px)"
+                    srcset="
+                      ./images/portfolio/2-tab/tab-img-portfolio-6@1x.jpg 1x,
+                      ./images/portfolio/2-tab/tab-img-portfolio-6@2x.jpg 2x
+                    "
+                  />
+                  <!-- #6 -- версія РЕТИНИ для десктоп / ПК / ноутбук -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/3-desktop/img-portfolio-6@1x.jpg 1x,
+                      ./images/portfolio/3-desktop/img-portfolio-6@2x.jpg 2x
+                    "
+                  />
+                  <!-- ще має бути тег IMG із атрибутом SRC, заміняємо властивості width та height на style="width: 100%; height: auto"
+                    width="360"
+                    height="300" -->
+                  <img
+                    src="./images/portfolio/3-desktop/img-portfolio-6@1x.jpg"
+                    alt="Online Courses"
+                    style="width: 100%; height: auto"
+                    class="portfolio-img"
+                  />
+                </picture>
+
                 <p class="portfolio-overlay-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -725,7 +1018,7 @@
                     <use href="./images/icons.svg#icon-checkbox-v"></use>
                   </svg>
                 </span>
-                I accept the terms and conditions of the&nbsp;
+                I accept the terms and conditions of the
                 <a href="./index.html" class="modal-check-link">
                   Privacy Policy</a
                 >
@@ -743,5 +1036,6 @@
 
     <!--___________ script / modal window: call back form ___________-->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
