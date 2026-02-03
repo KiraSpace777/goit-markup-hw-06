@@ -254,7 +254,7 @@ button {
 }
 
 /* ------------- @media HERO / MOBILE firts  ---- підключення фону 2х -------*/
-@media screen and (min-resolution: 2x) and (max-width: 767px) {
+@media screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .hero-section {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -322,7 +322,7 @@ button {
 }
 
 /*-------------- @media HERO / TABLET ---- підключення фону 2х -------*/
-@media screen and (min-resolution: 2x) and (min-width: 768px) {
+@media screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero-section {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -345,7 +345,7 @@ button {
 }
 
 /*-------------- @media HERO / DESKTOP  ---- підключення фону 2х -------*/
-@media screen and (min-resolution: 2x) and (min-width: 1158px) {
+@media screen and (min-resolution: 2dppx) and (min-width: 1158px) {
   .hero-section {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -549,6 +549,7 @@ button {
   }
 
   .team-list {
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: unset;
     gap: 64px 24px;
@@ -606,9 +607,14 @@ button {
 
 .portfolio-item {
   width: 100%;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   border: none;
-  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  /* transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  /* box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
 }
 
 .portfolio-item:hover,
@@ -939,6 +945,10 @@ button {
     margin: 0;
     padding: 0;
     margin-right: 80px;
+  }
+
+  .footer-form-container {
+    margin-left: auto;
   }
 }
 
