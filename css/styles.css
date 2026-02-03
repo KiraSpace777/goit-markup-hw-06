@@ -355,14 +355,20 @@ button {
 
 /* ===============  MAIN PAGE / features  ==============================*/
 /* -------------  Features / MOBILE firts ----------------*/
+.features-sections {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
 .features-list {
   display: flex;
   flex-wrap: wrap;
   /* justify-content: space-between; */
   align-items: center;
   gap: 72px;
-  margin-top: 96px;
+  /* margin-top: 96px;
   margin-bottom: 96px;
+  padding: 96px 0; */
 }
 
 .features-item {
@@ -397,8 +403,6 @@ button {
 /* ------------- @media Features / TABLET  ------------------*/
 @media screen and (min-width: 768px) {
   .features-list {
-    /* column-gap: 24px; */
-    /* row-gap: 72px; */
     gap: 72px 24px;
   }
   .features-item {
@@ -412,6 +416,11 @@ button {
 
 /* ------------- @media Features / DESKTOP  ------------------*/
 @media screen and (min-width: 1158px) {
+  .features-sections {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .features-icon-container {
     height: 112px;
     display: flex;
@@ -426,7 +435,6 @@ button {
 
   .features-list {
     gap: 24px;
-    margin-bottom: 120px;
   }
 
   .features-item {
@@ -448,7 +456,7 @@ button {
 /* -------------  TEAM / MOBILE firts ----------------*/
 .team-section {
   background-color: #f4f4fd;
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .team-title {
@@ -564,9 +572,10 @@ button {
 @media screen and (min-width: 1158px) {
   .team-main-container {
     max-width: 1440px;
-    padding: 120px auto;
   }
-
+  .team-section {
+    padding: 120px 0;
+  }
   .team-list {
     gap: 24px;
   }
